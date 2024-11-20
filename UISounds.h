@@ -2,6 +2,9 @@
 #include <SFML/Graphics.hpp>
 #include <SFML/Audio.hpp>
 
+#ifndef UISOUNDS_H
+#define UISOUNDS_H
+
 using namespace std;
 using namespace sf;
 
@@ -23,3 +26,4 @@ class UISounds : public Drawable {
         void UpdateGameOverPosition(Vector2f);
         virtual void draw(RenderTarget&,RenderStates) const;
 };
+#endif 

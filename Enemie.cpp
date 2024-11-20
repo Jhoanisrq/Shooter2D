@@ -1,4 +1,4 @@
-#include "Enemie.hpp"
+#include "Enemie.h"
 
 Enemie::Enemie(Vector2f pos, Texture &texture){
     sprite.setTexture(texture);

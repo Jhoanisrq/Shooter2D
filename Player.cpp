@@ -1,6 +1,6 @@
-#include "Player.hpp"
+#include "Player.h"
 
-Player::Player(Texture &texture){
+Player :: Player(Texture &texture){
     sprite.setTexture(texture);
     sprite.setTextureRect(IntRect(0,115,250,115));
     sprite.setScale(0.35,0.35);
@@ -9,7 +9,7 @@ Player::Player(Texture &texture){
     vel=2;
 }
 
-void Player::Update(RenderWindow &rw, View &view){
+void Player :: Update(RenderWindow &rw, View &view){
     Movement(view);
     Aim(rw);
 }

@@ -1,4 +1,4 @@
-#include "Bullet.hpp"
+#include "Bullet.h"
 
 Bullet::Bullet(Vector2f pos, Vector2f dire, float rot, Texture &texture){
     dir=dire;

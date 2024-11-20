@@ -1,5 +1,7 @@
 #include <bits/stdc++.h> 
 #include <SFML/Graphics.hpp>
+#ifndef ENEMIE_H
+#define ENEMIE_H
 
 using namespace std;
 using namespace sf;
@@ -21,3 +23,4 @@ class Enemie : public Drawable{
         int ConsultLife();
         virtual void draw(RenderTarget&,RenderStates) const;
 };
+#endif 

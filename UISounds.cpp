@@ -1,4 +1,4 @@
-#include "UISounds.hpp"
+#include "UISounds.h"
 
 UISounds::UISounds(){
     music.openFromFile("music.ogg");
